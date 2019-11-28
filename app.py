@@ -40,10 +40,6 @@ async def on_message(message):
     if "&random" in message.content.lower():
         rand = random.randint(1,10)
         await message.channel.send(rand)
-
-
-    
-
     return 
 
 client.run(json.load(open('config.json'))['secret'])
