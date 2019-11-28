@@ -42,4 +42,4 @@ async def on_message(message):
         await message.channel.send(rand)
     return 
 
-client.run(json.load(open('discordbot/config.json'))['secret'])
+client.run('NjQ5NDY4MTQ5MzU1MzgwNzQ3.Xd9OZg.j2KIKsh6Yb-NjRPaR_9651hqVM')
