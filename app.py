@@ -42,4 +42,4 @@ async def on_message(message):
         await message.channel.send(rand)
     return 
 
-client.run('NjQ5NDY4MTQ5MzU1MzgwNzQ3.XeBzLQ.jKttubjqi61RB5lxYnrlxRlXHBg')
+client.run('NjQ5NDY4MTQ5MzU1MzgwNzQ3.XeB0Qw.CFV5lxwpbf6LiRytvrGEWn78PO8')
