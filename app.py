@@ -41,5 +41,5 @@ async def on_message(message):
         rand = random.randint(1,10)
         await message.channel.send(rand)
     return 
-TOKEN = "NjQ5NDY4MTQ5MzU1MzgwNzQ3.XeB3bA.JBCW3rfknlH6igjVikc-z2z4F2w"
+TOKEN = "NjQ5NDY4MTQ5MzU1MzgwNzQ3.XeB4nQ.G3DZjFd4Syclv7O3gIKb08zA5Wc"
 client.run(TOKEN)
