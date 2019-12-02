@@ -1,6 +1,5 @@
-FROM ubuntu:latest
-RUN apt update -y && apt upgrade -y
-RUN apt install git python3-pip python3 -y
+FROM python:3.8.0-alpine3.10
+RUN apk add git
 RUN git clone https://github.com/Bacon-Legend/discordbot
 RUN pip3 install -r discordbot/requirements.txt
 CMD ["python3","discordbot/app.py"]
